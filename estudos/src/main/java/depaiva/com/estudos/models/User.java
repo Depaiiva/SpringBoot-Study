@@ -1,15 +1,15 @@
 package depaiva.com.estudos.models;
 
 public class User {
-    private String name;
+    private String nome;
     private String age;
 
-    public String getName() {
-        return name;
+    public String getnome() {
+        return nome;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setnome(String nome) {
+        this.nome = nome;
     }
 
     public String getAge() {
@@ -22,6 +22,6 @@ public class User {
 
     @Override
     public String toString() {
-        return "User [name=" + name + ", age=" + age + "]";
+        return "User [nome=" + nome + ", age=" + age + "]";
     }    
 }
